@@ -1,0 +1,22 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+h1{
+    font-weight: 300;
+}
+
+nav{
+    background-color: #262626;
+}
+
+header{
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 10rem 0;
+}
