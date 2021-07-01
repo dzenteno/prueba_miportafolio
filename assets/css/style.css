@@ -14,9 +14,6 @@ h2{
 .nombre{
     text-decoration: overline 2px;
 }
-.sobre-mi{
-    text-decoration: overline 2px;
-}
 
 nav{
     background-color: #262626;
@@ -24,13 +21,15 @@ nav{
 footer{
     background-color: #262626;
 }
-
+/* BG header */
 header{
     background-image: url("../img/BG-2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    padding-bottom: 2rem;
 }
+/* BG mi foto */
 .imagen-fondo{
     background-image: url("../img/bg_hero.png");
     background-repeat: no-repeat;
@@ -39,6 +38,15 @@ header{
     padding: 10rem 0;
     border-radius: 8px;
 }
+
 .ultimos-trabajos{
     background-color: #262626;
+}
+
+.ico{
+    color: white;
+}
+
+.line{
+    width: 10%;
 }
