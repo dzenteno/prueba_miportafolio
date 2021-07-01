@@ -1,6 +1,9 @@
 $(document).ready(function () {
 
-
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      
     $("a").click(function (event) {
         event.preventDefault();
 

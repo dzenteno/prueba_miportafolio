@@ -25,6 +25,12 @@ footer{
     background-color: #262626;
 }
 
+header{
+    background-image: url("../img/BG-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
 .imagen-fondo{
     background-image: url("../img/bg_hero.png");
     background-repeat: no-repeat;
