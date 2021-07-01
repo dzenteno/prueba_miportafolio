@@ -12,16 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- Mi estilo CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>DZS</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark px-5">
-        <a class="navbar-brand" href="#"><h1>DZS</h1></a>
+        <a class="navbar-brand" href="#">
+            <h1 class="logo">DZS</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,13 +42,137 @@
             </div>
         </div>
     </nav>
-
-    <header class="text-light text-center">
+    <!-- Header -->
+    <header class="text-dark text-center my-5">
         <div class="container">
-            <h2>Yo soy</h2>
-            <h1>Diego Zenteno</h1>
+            <div class="row">
+                <div class="col-md-6 imagen-fondo">
+                </div>
+                <div class="col-md-6 align-self-center my-4">
+                    <h2>YO SOY</h2>
+                    <h1 class="nombre">DIEGO ZENTENO</h1>
+                </div>
+            </div>
         </div>
     </header>
+
+    <!-- Sobre Mi -->
+    <section class="container text-center d-none d-md-block">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, nisi? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Incidunt, deserunt.</h3>
+        <h3 class="sobre-mi"></h3>
+        <div class="container text-justify">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea a molestias excepturi, minima iure
+                        cupiditate. Laudantium voluptatum quaerat officiis ratione accusantium vitae veniam blanditiis
+                        sed repellat quod amet nostrum excepturi quas a ducimus, saepe minus at nulla aspernatur
+                        necessitatibus, ut adipisci! Natus quae fugit animi sunt id dolor rem eaque obcaecati
+                        necessitatibus autem eius molestias enim ea, dolore dicta vero nisi sequi quos consequatur nemo
+                        harum. Voluptatum officiis non eius, sapiente suscipit quos fuga tempora ex ut quas, quidem
+                        consequatur.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nihil aliquid omnis ex excepturi
+                        pariatur voluptate recusandae sunt obcaecati neque consequuntur ipsa necessitatibus labore ut
+                        optio placeat sint corporis mollitia, nesciunt veniam facilis. Ex, corporis aut numquam ipsa
+                        provident nemo fugit. Rem, officiis voluptates. Ipsum numquam aliquam provident ducimus soluta
+                        suscipit quaerat, iure nostrum, facere unde tenetur necessitatibus, porro explicabo similique
+                        quos amet excepturi velit praesentium laudantium dicta incidunt itaque eius eligendi inventore!
+                        Asperiores velit, neque est a reiciendis ratione.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mi experiencia -->
+    <section class="container text-center">
+        <h1>MI EXPERIENCIA</h1>
+        <div class="row my-4">
+            <div class="col-md-6">
+                <i class="fas fa-network-wired fa-5x"></i>
+                <h4 class="my-4">Prestador de servicios FO</h4>
+                <p>2017 - 2019</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-mountain fa-5x"></i>
+                <h4 class="my-4">Analista de monitoreo volcánico</h4>
+                <p>2020 - A la fecha</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MIS ÚLTIMOS TRABAJOS -->
+    <section class="container-fluid ultimos-trabajos py-4">
+        <h1 class="text-light text-center">MIS ÚLTIMOS TRABAJOS</h1>
+        <div class="card-deck my-5">
+            <div class="card">
+                <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="Panqueques con manjar">
+                <div class="card-body">
+                    <h3 class="card-title">MEET & COFFEE</h3>
+                    <p class="card-text" style="display: none;">This is a longer card with supporting text below as a
+                        natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/suricata.png" class="card-img-top img-fluid" alt="Tiramisú">
+                <div class="card-body">
+                    <h3 class="card-title">SURICATA</h3>
+                    <p class="card-text" style="display: none;">This card has supporting text below as a natural lead-in
+                        to additional content.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/iguana_page.png" class="card-img-top img-fluid" alt="Plateada">
+                <div class="card-body">
+                    <h3 class="card-title">IGUANA PAGE</h3>
+                    <p class="card-text" style="display: none;">This is a wider card with supporting text below as a
+                        natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck my-5">
+            <div class="card">
+                <img src="assets/img/cuppon.png" class="card-img-top img-fluid" alt="Plateada">
+                <div class="card-body">
+                    <h3 class="card-title">CUPPON</h3>
+                    <p class="card-text" style="display: none;">This is a wider card with supporting text below as a
+                        natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/ricomida.png" class="card-img-top img-fluid" alt="Plateada">
+                <div class="card-body">
+                    <h3 class="card-title">RICOMIDA</h3>
+                    <p class="card-text" style="display: none;">This is a wider card with supporting text below as a
+                        natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/dmark.png" class="card-img-top img-fluid" alt="Plateada">
+                <div class="card-body">
+                    <h3 class="card-title">DMARK</h3>
+                    <p class="card-text" style="display: none;">This is a wider card with supporting text below as a
+                        natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery v3.6.0-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
