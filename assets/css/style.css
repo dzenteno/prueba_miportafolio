@@ -21,6 +21,9 @@ h2{
 nav{
     background-color: #262626;
 }
+footer{
+    background-color: #262626;
+}
 
 .imagen-fondo{
     background-image: url("../img/bg_hero.png");
